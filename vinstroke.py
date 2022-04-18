@@ -1,0 +1,48 @@
+import turtle
+
+a = turtle.Turtle()
+
+a.color("#A64B2A" , "#FFEBC1")
+
+a.getscreen().bgcolor("#8E3200")
+
+a.begin_fill()
+a.left(90)
+a.forward(25)
+a.right(90)
+a.forward(25)
+a.right(75)
+a.forward(100)
+a.left(75)
+a.forward(25)
+a.left(60)
+a.forward(120)
+a.right(60)
+a.forward(25)
+a.right(120)
+a.forward(145)
+a.right(60)
+a.forward(60)
+a.right(75)
+a.forward(100)
+a.end_fill()
+
+a.color("#A64B2A" , "#FFEBC1")
+
+a.penup()
+a.right(105)
+a.forward(175)
+a.pendown()
+a.begin_fill
+a.left(90)
+a.forward(25)
+a.right(90)
+a.forward(25)
+a.right(90)
+a.forward(125)
+a.right(90)
+a.forward(25)
+a.right(90)
+a.forward(100)
+a.end_fill()
+turtle.done()
